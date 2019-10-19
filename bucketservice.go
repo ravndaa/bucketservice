@@ -1,10 +1,15 @@
-package bucketservice
+package main
 
 import (
 	"errors"
 	"net/http"
 	"time"
 )
+
+//WorkAround?
+func main() {
+
+}
 
 // BucketStore hmm
 type BucketStore interface {

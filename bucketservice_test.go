@@ -1,4 +1,4 @@
-package bucketservice
+package main
 
 import "testing"
 
