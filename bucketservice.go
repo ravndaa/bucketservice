@@ -61,7 +61,7 @@ func (b BucketService) Delete(bucketid string) error {
 		err := errors.New("bucket not found")
 		return err
 	}
-	delete(b.DB, bucketid)
+	//delete(b.DB, bucketid)
 
 	return nil
 }
