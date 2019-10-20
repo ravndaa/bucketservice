@@ -1,7 +1,6 @@
 package bucketservice
 
 import (
-	"errors"
 	"net/http"
 	"time"
 )
@@ -24,6 +23,7 @@ type Message struct {
 	DateTime  time.Time      `json:"datetime"`
 }
 
+/*
 // BucketService Service
 type BucketService struct {
 	DB map[string]*[]Message
@@ -90,3 +90,4 @@ func (b BucketService) DoesBucketExist(bucketid string) bool {
 
 	return true
 }
+*/
