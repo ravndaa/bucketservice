@@ -47,8 +47,8 @@ func (b *SqliteStore) Create() (id string, err error) {
 }
 
 // Delete a
-func (b *SqliteStore) Delete() {
-
+func (b *SqliteStore) Delete(bucketid string) error {
+	return nil
 }
 
 // AddMessage a
